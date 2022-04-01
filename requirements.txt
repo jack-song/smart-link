@@ -1,0 +1,15 @@
+numpy~=1.18
+scikit-learn~=0.22
+gensim~=3.8
+nltk~=3.4
+jupyterlab
+obsidiantools
+markdown
+html2text
+pandas
+numpy
+networkx
+matplotlib
+scipy
+tensorflow==2.8.0
+tensorflow_hub
