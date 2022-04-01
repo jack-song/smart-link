@@ -1,6 +1,6 @@
 # Obsidian Smart Link
 
-Automates the process of skimming through notes to see what could be linked, but might have been missed. Should make it easier to connect ideas and spot insights. Uses Obsidian Lab and Obsidian Tools.
+Automates the process of skimming through notes to see what could be linked, but might have been missed. Should make it easier to connect ideas and spot insights. Uses [Obsidian Lab](https://github.com/cristianvasquez/obsidian-lab-py) and [Obsidian Tools](https://github.com/mfarragher/obsidiantools).
 
 ## Setup
 
