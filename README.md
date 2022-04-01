@@ -1,6 +1,10 @@
 # Obsidian Smart Link
 
-Automates the process of skimming through notes to see what could be linked, but might have been missed. Should make it easier to connect ideas and spot insights. Uses [Obsidian Lab](https://github.com/cristianvasquez/obsidian-lab-py) and [Obsidian Tools](https://github.com/mfarragher/obsidiantools).
+Automates the process of skimming through notes to see what could be linked, but might have been missed. Adds a pane that lists notes that are currently un-related, but seem to have similar content. Should make it easier to connect ideas and spot insights.
+
+Uses [Obsidian Lab](https://github.com/cristianvasquez/obsidian-lab-py) and [Obsidian Tools](https://github.com/mfarragher/obsidiantools).
+
+Current strategy uses the Universal Sentence Encoder(https://tfhub.dev/google/universal-sentence-encoder/4) by Google for semantic similarity. Seems to beat out naive TFIDF and GloVe models by anecdotal evidence. More tests to come.
 
 ## Setup
 
