@@ -2,6 +2,10 @@
 
 Automates the process of skimming through notes to see what could be linked, but might have been missed. Adds a pane that lists notes that are currently un-related, but seem to have similar content. Should make it easier to connect ideas and spot insights.
 
+Sample:
+<img width="267" alt="image" src="https://user-images.githubusercontent.com/6496202/161357681-58022a66-bbcb-4c9b-b4b0-f9965c3d7463.png">
+
+
 Uses [Obsidian Lab](https://github.com/cristianvasquez/obsidian-lab-py) and [Obsidian Tools](https://github.com/mfarragher/obsidiantools).
 
 Current strategy uses the Universal Sentence Encoder(https://tfhub.dev/google/universal-sentence-encoder/4) by Google for semantic similarity. Seems to beat out naive TFIDF and GloVe models by anecdotal evidence. More tests to come.
